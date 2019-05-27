@@ -31,8 +31,8 @@ img{
    left: 25px;
 }
 .myqb-header__logo img{
-  /* width: 180px;
-  height: 180px; */
+   width: 120px;
+   height: 30;
 }
 .myqb-header__menu-content{
   margin-left: 225px;
@@ -448,6 +448,10 @@ img{
 .footer-top__title{
   color: #FFF;
   text-decoration: underline;
+}
+.footer-top__title img{
+  width: 120px;
+  height: 30;
 }
 .footer-top__list{
   color: #FFFFFF;
