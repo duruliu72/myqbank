@@ -8,6 +8,10 @@ var $grid = $('.grid').isotope({
     var filterValue = $(this).attr('data-filter');
     $grid.isotope({ filter: filterValue });
   });
+  $('.blog-filter').on( 'click', 'li', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+  });
     $('.owl-carousel').owlCarousel({
       loop:true,
       responsiveClass:true,
