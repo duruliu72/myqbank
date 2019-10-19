@@ -14,110 +14,34 @@ img {
 img {
   max-width: 100%;
 }
+/* MyQbank Site design */
 .myqb-header{
   background: #EB5757;
-  width: 100%;
-  padding: 15px 15px;
+  min-height: 55px;
+  -webkit-box-shadow: 0px 3px 4.6px 0.3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 4.6px 0.3px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5px;
 }
-.myqb-header__logo{
-  text-align: center;
+.logo-size{
+  width: 120px;
 }
-.myqb-header__logo img {
-  width: 7.5rem;
-  height: 30px;
-}
-.primary-nav ul{
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-.primary-nav ul::after {
-  content: "";
+ul.myqbank-nav li.nav-item a.nav-link{
+  padding: 8px 8px;
   display: block;
-  clear: both;
-}
-.primary-nav ul li {
-  float: left;
-  padding-right: 1.5625rem;
-}
-.primary-nav ul li a {
+  font-weight: 600;
+  font-size: 18px;
   color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  padding: 1.3125rem 0px;
-  display: block;
+}
+.navbar a.signin-up {
+  border: 1px solid #ffffff;
+  padding: 5px 5px;
+  transition: all 0.5s ease;
+  color: #ffffff;
   font-weight: 600;
 }
-.primary-nav ul li a.signin-up {
-  font-weight: 600;
-}
-.primary-nav--right ul li {
-  padding-right: 10px;
-}
-@media only screen and (min-width: 1360px){
-  .myqb-header{
-    background: #EB5757;
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    z-index: 999;
-  }
-  .myqb-header::after{
-    content: "";
-    display: block;
-    clear: both;
-  }
-  .myqb-header__logo{
-     position: absolute;
-     top: 27px;
-     left: 92px;
-  }
-  .myqb-header__logo img{
-     width: 7.5rem;
-     height: 30px;
-  }
-  .myqb-header__menu-content{
-    margin-left: 16.875rem;
-  }
-  .myqb-header__menu-content::after{
-    content: "";
-    display: block;
-    clear: both;
-  }
-  .primary-nav--left{
-    float: left;
-  }
-  .primary-nav--right{
-    float: right;
-    margin-right:69px;
-  }
-  .primary-nav ul{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-  }
-  .primary-nav ul::after{
-    content: "";
-    display: block;
-    clear: both;
-  }
-  .primary-nav ul li{
-    float: left;
-    padding-right: 1.5625rem;
-  }
-  .primary-nav ul li a{
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    padding: 1.3125rem 0px;
-    display: block;
-    font-weight: 600;
-  }
-  .primary-nav ul li a.signin-up{
-    font-weight: 600;
-  }
-  .primary-nav--right ul li{
-    padding-right: 10px;
+@media only screen and (min-width: 992px){
+  ul.myqbank-nav li.nav-item a.nav-link{
+    padding: 20px 8px;
   }
 }
 /* End Header section */
@@ -137,11 +61,11 @@ img {
     width: 1062px;
   }
 }
-.row{
+.row1{
   margin-left: -15px;
   margin-right: -15px;
 }
-.row::after{
+.row1::after{
   content: "";
   display: block;
   clear: both;
@@ -220,7 +144,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .btn{
-    padding: .75rem 1.2rem;
+    padding: .75rem 1rem;
     border-radius: 5px;
     letter-spacing: 2px;
   }
@@ -658,11 +582,11 @@ img {
   .cpt{
     padding-top: 70px;
   }
-  .col-4{
+  .col1-4{
     width: 33.3333%;
     float: left;
   }
-  .col-8{
+  .col1-8{
     width: 66.6666%;
     float: left;
   }
@@ -1046,9 +970,9 @@ img {
 }
 
 .our-team-member {
-  width: 25%;
+  /* width: 25%; */
   text-align: center;
-  float: left;
+  /* float: left; */
   margin-bottom: 35px;
   padding: 0px 15px;
 }
